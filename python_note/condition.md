@@ -19,10 +19,10 @@ def age_check(age):
 	print(f"you are {age}years old")
 	if age <= 18:
 		print("you cant drink")
-//elif - else if
+# elif - else if
 	elif age == 18:
 		print("you are new to this")
-	//and &&
+	# and &&
   elif age>20 and age<25:
 		print("you are still kind of young")
 	else : 
@@ -36,20 +36,20 @@ age_check(17)
 # 1.11 for in
 
 ```python
-//for loops 
+# for loops 
 days = ("mon","tue","wed","thur","fri")
 
 for day in days:
 	print(day)
 
-//break
+# break
 for day in days:
 	if day is "wed":
 		break
 	else : 
 		print(day)
 
-//print letter
+# print letter
 for letter in "hello"
 	print(letter)
 ```
