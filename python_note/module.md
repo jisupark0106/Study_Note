@@ -1,11 +1,11 @@
 # 1.12 Modules
 
 ```python
-//modules : sets of function
-//ex, math -> module import
-//we can find module in python standard library
+# modules : sets of function
+# ex, math -> module import
+# we can find module in python standard library
 
-//import math
+# import math
 from math import ceil, fabs
 from math import fsum as sum 
 print(math.ceil(1.2))
@@ -15,14 +15,14 @@ print(math.fabs(1.2))
 Import module example
 
 ```python
-//calculator.py
+# calculator.py
 def add (a,b):
 	return a+b
 ```
 
 ```python
-//main.py
-//you can use file name (main), do not use main.py
+# main.py
+# you can use file name (main), do not use main.py
 from caculator import add
 print(add(1,5))
 ```
@@ -40,7 +40,7 @@ print(add(1,5))
 # 2.2 Navigating with Python
 
 ```python
-//html 스크랩핑, text변환
+# html 스크랩핑, text변환
 import requests
 
 indeed_result = requests.get("https://kr.indeed.com/jobs?q=python&l=seoul")
